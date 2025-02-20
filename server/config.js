@@ -3,7 +3,7 @@ require('dotenv').config();
 module.exports = {
     // API配置
     api: {
-        key: process.env.API_KEY || '8cef821a-e44d-4e1d-bdee-f98102ee06dd',
+        key: process.env.API_KEY,
         url: process.env.API_URL || 'https://ark.cn-beijing.volces.com/api/v3/chat/completions',
         model: 'deepseek-r1-250120',
         timeout: 60000
